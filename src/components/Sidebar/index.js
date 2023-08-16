@@ -2,20 +2,11 @@ import './index.scss'
 import LogoS from '../../assets/images/mylogo-removebg-preview.png'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faLinkedin,
-  faGithub,
-  faYoutube,
-  faSkype,
-} from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
   faUser,
   faEnvelope,
-  faSuitcase,
-  faBars,
-  faClose,
-  faGear,
   faLightbulb,
 } from '@fortawesome/free-solid-svg-icons'
 
@@ -53,6 +44,27 @@ const Sidebar = () => (
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
       </NavLink>
     </nav>
+
+    <ul>
+      <li>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/0112shpark"
+        >
+          <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.instagram.com/tjdgusqkr12/"
+        >
+          <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
+        </a>
+      </li>
+    </ul>
   </div>
 )
 
