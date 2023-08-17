@@ -3,6 +3,14 @@ import './index.scss'
 import emailjs from '@emailjs/browser'
 import React, { useEffect, useRef, useState } from 'react'
 import Animated from '../Animated'
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  useMapEvents,
+} from 'react-leaflet'
+import Locate from './locate'
 
 const Contact = () => {
   const [letterClass, setletterClass] = useState('text-animate')
@@ -87,6 +95,25 @@ const Contact = () => {
               </ul>
             </form>
           </div>
+        </div>
+        <div className="info-map">
+          SeongHyeon Park,
+          <br />
+          Republic of Korea.
+          <br />
+          <br />
+          Click to relocate you on the map.
+          <br />
+          <span>000112shpark@naver.com</span>
+        </div>
+        <div className="map-wrap">
+          <MapContainer center={[37.56667, 126.97806]} zoom={15}>
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Locate />
+          </MapContainer>
         </div>
       </div>
       <Loader type="pacman" />
