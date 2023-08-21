@@ -1,0 +1,96 @@
+{
+  "portfolio": [
+    {
+      "cover":"/pics/kdis.jpg",
+      "title": "K-Discovery",
+      "stacks": "React, OpenAI, Firebase, TourAPI",
+      "description":"챗봇기반 관광지 추천 웹사이트",
+      "url":"https://i-project.vercel.app/",
+      "Git": "https://github.com/0112shpark/-I-project"
+    },
+    {
+      "cover":"/pics/movie1.jpg",
+      "title": "Disney-Plus Application",
+      "stacks": "React, MovieDB, Firebase",
+      "description":"Disney-Plus OTT Application",
+      "url":"https://react-disney-plus-app-196b2.web.app/",
+      "Git": "https://github.com/0112shpark/Disney-Plus-app-clone"
+    },
+    {
+      "cover":"/pics/totalview.gif",
+      "title": "OMDB-Movie Application",
+      "stacks": "HTML, CSS, JavaScript, OMDBAPI",
+      "description":"OMDB Database기반 영화검색 사이트",
+      "url":"https://om-db-movie-app.vercel.app/",
+      "Git": "https://github.com/0112shpark/OMDb-movie-app"
+    },
+    {
+      "cover":"/pics/tictactoe.jpg",
+      "title": "Tictactoe Application",
+      "stacks": "React",
+      "description":"React 기반 Tictactoe Application",
+      "url":"https://react-tictactoe-app.vercel.app/",
+      "Git": "https://github.com/0112shpark/react-tictactoe-app"
+    },
+    {
+      "cover":"/pics/starbucks.gif",
+      "title": "Starbucks Landing page",
+      "stacks": "HTML, CSS, JavaScript",
+      "description":"Starbucks Clone Project",
+      "url":"https://my-starbucks-clone-proj1.netlify.app/",
+      "Git": "https://github.com/0112shpark/Starbucks-page-clone"
+    },
+    {
+      "cover":"/pics/ipad.gif",
+      "title": "Ipad Landing page",
+      "stacks": "HTML, CSS, JavaScript",
+      "description":"Ipad Clone Project",
+      "url":"https://my-apple-ipad.netlify.app/",
+      "Git": "https://github.com/0112shpark/Apple-ipad"
+    },
+    {
+      "cover":"/pics/overwatch.jpg",
+      "title": "Overwatch Character Selector",
+      "stacks": "HTML, CSS",
+      "description":"Simple Character Selector",
+      "url":"https://overwatch-charcter-selec.netlify.app/",
+      "Git": "https://github.com/0112shpark/Overwatch-Character-Selector-vanilla"
+    },
+    {
+      "cover":"/pics/thread-base.jpg",
+      "title": "Concurrent Stock Server",
+      "stacks": "Linux, C++",
+      "description":"Concurrent Servers on Linux",
+      "Git": "https://github.com/0112shpark/CSE4100-2022-01"
+    },
+    {
+      "cover":"/pics/malloc.png",
+      "title": "malloc lab",
+      "stacks": "Linux, C++",
+      "description":"Implementing Malloc on Linux",
+      "Git": "https://github.com/0112shpark/CSE4100-2022-01"
+    },
+    {
+      "cover":"/pics/pintos.jpg",
+      "title": "Pintos project",
+      "stacks": "Linux, C++",
+      "description":"Pintos Project/ project 4,5 on other repos.",
+      "Git": "https://github.com/0112shpark/pintos-prj1-2-3"
+    },
+    {
+      "cover":"/pics/graphics.jpg",
+      "title": "OpenGl Projects",
+      "stacks": "C++, OpenGL",
+      "description":"Creating creative 3D models using OpenGL and C++",
+      "Git": "https://github.com/0112shpark/CSE4170-2022-1"
+    },
+    {
+      "cover":"/pics/scm.png",
+      "title": "SCM Network Model Configuration",
+      "stacks": "C++, ERwin, ODBC, MySQL",
+      "description":"Configure SCM networking model and extract data with queries",
+      "Git": "https://github.com/0112shpark/CSE4110-2022-01"
+    }
+
+  ]
+}
