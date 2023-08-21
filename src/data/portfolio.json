@@ -91,6 +91,13 @@
       "description":"Configure SCM networking model and extract data with queries",
       "Git": "https://github.com/0112shpark/CSE4110-2022-01"
     }
+    , {
+      "cover":"/pics/network.jpg",
+      "title": "Projects of Intro to Network",
+      "stacks": "C++",
+      "description":"Implement CRC encoder/decoder and distance vector & linkstate routing algorithm",
+      "Git": "https://github.com/0112shpark/CSE4175-Intro-to-Computer-Network"
+    }
 
   ]
 }
